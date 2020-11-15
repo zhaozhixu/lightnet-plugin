@@ -1,0 +1,6 @@
+*~
+*.bak
+.cache
+.clangd
+build
+compile_commands.json
