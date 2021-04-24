@@ -2,6 +2,7 @@
 export LN_ROOT ?= /home/zhixu/workspace/projects/LightNet
 export LN_BUILDTOOLS_DIR := $(LN_ROOT)/tools/buildtools
 export PLUGIN_BUILD_DIR := build
+export PLUGIN_TARGET := bigger-plugin
 SRC_DIR := src
 TEST_DIR := test
 

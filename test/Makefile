@@ -3,7 +3,7 @@ include $(LN_BUILDTOOLS_DIR)/common.mk
 
 BUILDTOOLS_DIR := $(LN_ROOT)/tools/buildtools
 BUILD_DIR := ../$(PLUGIN_BUILD_DIR)
-TARGET_TEST := bigger_plugin_test
+TARGET_TEST := $(PLUGIN_TARGET)_test
 SRC := test_plugin.c test_plugin_op.c
 
 .PHONY: all bin run
